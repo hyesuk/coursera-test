@@ -6,14 +6,14 @@ body {
   box-sizing: border-box;
 }
 
-header{
+/*header{
   background-color: #808080;
   border-radius: 3px;
   border: 3px solid #006600;
   border-color: #000000;
-  height: 100px;
-  width:auto;
-}
+  height: auto;
+  width: auto;
+}*/
 h1 {
   color: #000000;
   margin-left: 50px;
@@ -35,9 +35,8 @@ h1 {
   text-transform: uppercase;
   font-weight: bold;
   /*text-shadow: 1px 1px 1px #222;*/
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: .75;
+  margin-top: auto;
+  line-height: 1.0;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -69,12 +68,16 @@ h1 {
 }
 .navbar-header button.navbar-toggle {
   clear: both;
+  margin-top: -40px;
 }
 .section {
  background-color:#808080;
- margin-top: 10px;
- margin-bottom: 20px;
- padding: 5px 20px 5px 20px;
+ /*padding: 5px 20px 5px 20px;*/
+ border: 3px solid black;
+ position: relative;
+ margin: 0px auto 25px 0px;
+ padding: 0px 20px 0px 20px;
+ overflow: hidden;
 }
 h3 {
   text-align: center;
